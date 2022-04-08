@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="todo.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="todo.js"></script>
+    
+    
+    <title>Todo App</title>
+</head>
+<body>
+    <div class="background">
+      
+    <div class="website">
+      
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Hello Admin</a>
+    </div>
+    <ul class="nav navbar-nav">
+      
+     
+    </ul>
+    <button class="btn-todo" onclick="window.location.href = 'http://127.0.0.1:5500/todoo.html';">Todo</button>
+    <button class="btn btn-danger navbar-btn" onclick="window.location.href = 'http://127.0.0.1:5500/index.html';">Log out</button>
+  </div>
+</nav>
+
+
+      <h1 class="main-heading">Todo App</h1>
+      <h2 class="sub-point">Note everything that you want</h2>
+      </div>
+                              
+     
+    <script>
+      $('.website').hide();
+    </script>
+
+
+      <form class="login" action="todo.js">
+      <h2 class="login-buttons" style="font-family: sans-serif;">LOGIN</h2>
+      
+        
+      <h3>UserID:</h3>
+      <input name="user" id="user-id" placeholder="ID">
+      <h3>Password:</h3>
+      <input name="pass" id="pass-word" type="password" placeholder="Password" >
+      <br><br>
+      <input class="login-btn" type="button" value="Login" onClick="login(this.form)">
+      <input class="reset-btn" type="Reset">
+      </form>
+      </div>
+  
+      
+</body>
+</html>
